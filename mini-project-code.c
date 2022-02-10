@@ -47,8 +47,8 @@ void status_indicator()
 	}
 	else
 	{
-	     digitalWrite(GREEN, HIGH);
+	          digitalWrite(GREEN, HIGH);
 		 lcd.print("DANGER: LOW    "); //Prints the output on LCD 
 	}
-	delay(10); //delay
+	    delay(10); //delay
 }		
